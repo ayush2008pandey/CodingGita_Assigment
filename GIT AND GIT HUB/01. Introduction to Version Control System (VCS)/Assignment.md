@@ -79,8 +79,9 @@ Objective: Apply the concepts of VCS to a practical situation.
 4. Draw a simple workflow showing how a Distributed VCS (like Git) helps your team.
 5. Write 4 key takeaways you learned from Day 1.
 
-*ANSWER*
-<img width="1200" height="1600" alt="WhatsApp Image 2026-08-23 at 23 21 11" src="https://github.com/user-attachments/assets/09290cc2-cc0a-4054-8114-0941cc6b5c3f" />
+*ANSWER* 
+
+<img width="1200" height="1600" alt="WhatsApp Image 2026-08-23 at 23 21 28" src="https://github.com/user-attachments/assets/83480126-910c-4d2e-802f-bcc5254386b6" />
 
 
 
