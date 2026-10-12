@@ -70,3 +70,30 @@
 
 #question 29 
 
+
+n = int(input("enter no :"))
+s = str(n)
+smallest = int(s[0])
+for char in s[1:]:
+    digit = int(char)
+    if digit < smallest:
+        smallest = digit
+print(smallest)
+
+
+#question 30 
+
+n = 58321
+rev = 0
+for i in range(len(str(n))):
+    digit = n % 10
+    rev = rev * 10 + digit
+    n = n // 10
+print(rev)
+
+#question 31
+
+number  = int(input("enter no:"))
+pal = 0
+for i in range(str(len(number))):
+    
