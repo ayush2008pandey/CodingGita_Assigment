@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        button{
+            border-radius: 50%;
+            border: none;
+            height: 50px;
+            width: 50px;
+            background-color: #505050;
+            color: white;
+            font-weight: bold;
+        }
+        #zeroBtn{
+            padding-right: 60px;
+            border-radius: 50px;
+            width: 110px;
+        }
+        .displayMath{
+            text-align: right;
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            font-size: 30px;
+        }
+        .calculator{
+            width: 230px;
+            background-color: black;
+            padding: 20px;
+        }
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .divBtn{
+            display: flex;
+            flex-wrap: wrap; /* CRITICAL: align-content only works on multi-line flex containers */
+    align-content: space-between;
+            height: 300px;
+            /* border: 2px solid black; */
+        }
+        .lstbtn{
+            background-color: #FF9500;
+            color: white;
+        }
+        .r1btn{
+            background-color: #A2A2A2;
+            color: black;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <div class="displayMath">
+            <h1>7744</h1>
+        </div>
+        <div class="divBtn">
+            <div class="row">
+                <button class="r1btn">C</button>
+                <button class="r1btn">+/-</button>
+                <button class="r1btn">%</button>
+                <button class="lstbtn">&divide;</button>
+            </div>
+            
+            <div class="row" >
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="lstbtn">x</button>
+            </div>
+            <div class="row">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="lstbtn">-</button>
+            </div>
+            <div class="row">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="lstbtn">+</button>
+            </div>
+            <div class="row">
+                <button id="zeroBtn">0</button>
+                <button>,</button>
+                <button class="lstbtn">=</button>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

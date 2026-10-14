@@ -1,0 +1,61 @@
+<div class="dashboard">
+    <aside class="sidebar">
+        <h3>Sidebar</h3>
+        <p>Dashboard</p>
+        <p>Analytics</p>
+        <p>Settings</p>
+    </aside>
+
+    <main class="main-content">
+        <h2>Dashboard Overview</h2>
+        <p>This is the main content area.</p>
+        <p>
+            Add more content here to test how the layout
+            responds when the available space changes.
+        </p>
+    </main>
+
+    <aside class="activity-panel">
+        <h3>Recent Activity</h3>
+        <p>New user registered</p>
+        <p>Order completed</p>
+    </aside>
+</div>
+
+
+
+<style>
+    .dashboard {
+        display: flex;
+        width: 1000px;
+        height: 400px;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .sidebar {
+        flex: 1 1 200px;
+        width: 200px;
+        background: #ddd;
+    }
+
+    .main-content {
+        flex: 0 0 200px;
+        /* width: 200px; */
+        background: #e8f0ff;
+        min-width: 0;
+    }
+
+    .activity-panel {
+        flex: 1 1 250px;
+        width: 250px;
+        background: #eee;
+        align-self: auto;
+        align-self: auto;
+    }
+
+    .dashboard>* {
+        padding: 15px;
+    }
+</style>
